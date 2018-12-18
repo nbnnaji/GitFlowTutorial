@@ -10,16 +10,18 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 /**
- * Created by Nkechi Nnaji on 12/13/18.
+ * Created by Nkechi Nnaji on 12/18/18.
  * Description:
  */
-class HomeFragment: Fragment() {
+class DashboardFragment: Fragment() {
+
     private var fragView: View? = null
 
     override fun onCreateView(inflater: LayoutInflater, @Nullable container: ViewGroup?, @Nullable savedInstanceState: Bundle?): View? {
 
-        fragView = inflater.inflate(R.layout.content_login_fragment, null)
+        fragView = inflater.inflate(R.layout.content_dashboard_fragment, null)
         return fragView
     }
+
 
 }

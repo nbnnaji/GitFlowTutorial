@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() , BottomNavigationView.OnNavigationItem
     //Load fragment
 
     private fun loadFragment(fragment:Fragment?):Boolean{
-        //Switch frgament
+        //Switch fragment
         if(fragment !=null){
             supportFragmentManager
                 .beginTransaction()
@@ -42,7 +42,8 @@ class MainActivity : AppCompatActivity() , BottomNavigationView.OnNavigationItem
         when (item.itemId) {
             R.id.navigation_home -> fragment = HomeFragment()
 
-//            R.id.navigation_dashboard -> fragment = DashboardFragment()
+            R.id.navigation_dashboard -> fragment = DashboardFragment()
+
 //
 //            R.id.navigation_notifications -> fragment = NotificationsFragment()
 //
